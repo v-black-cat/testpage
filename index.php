@@ -54,7 +54,7 @@
 							<br>
 							<br>
 							<!--  -->
-							<button name="">画像作成</button>
+							<button name="">画像作成aa</button>
 						</form>
 						<br>
 						
