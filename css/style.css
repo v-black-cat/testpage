@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background: #fff;
+	height: 100vh;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #e3be08!important;
+}
+header {
+	background: #fff;
+	overflow: auto;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 35px;
+	text-align: center;
+}
+header h1 {
+	font-size: 40px;
+	font-weight: bold;
+	display: block;
+	line-height: 1;
+	letter-spacing: 0;
+	padding: 0 20px;
+}
+#barba-wrapper {
+	padding: 0;
+	width: 100%;
+}
+.inner {
+	display: table;
+	width: 100%;
+}
+.inner .content{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.inner h2{
+	font-size: 30px;
+	margin-bottom: 50px;
+	margin-top: 0;
+}
+.inner ul li{
+	display: inline-block;
+	padding: 10px 20px;
+}
+.inner ul li a{
+	background: rgba(79,77,71,.1);
+	border-radius: 5px;
+	padding: 18px 50px;
+	color: #000;
+	font-size: 18px;
+	display: inline-block;
+	line-height: 1;
+	
+}
+button{
+	background: rgba(79,77,71,.1);
+	border-radius: 5px;
+	padding: 18px 50px;
+	color: #000;
+	font-size: 18px;
+	display: inline-block;
+	border: none;
+	line-height: 1;
+	cursor: pointer;
+}
+.inner ul li a:hover{
+	color: #000!important;
+	background: rgba(79,77,71,.05);
+}
+.page-1.inner {
+	/* グラデーション */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(1%, #7be7d7), color-stop(40%, #7be7d7), color-stop(40%, #7be7d7), color-stop(100%, #86a4e3));
+	background: -webkit-linear-gradient(45deg, #7be7d7 1%, #7be7d7 40%, #7be7d7 40%, #86a4e3 100%);
+	background: linear-gradient(45deg, #7be7d7 1%, #7be7d7 40%, #7be7d7 40%, #86a4e3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7be7d7', endColorstr='#86a4e3', GradientType=1);
+}
+
